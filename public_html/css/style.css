@@ -1,0 +1,110 @@
+.navbar {
+    background-color: #4c8930;
+}
+
+/* An issue with the navbar toggler resolved with the help of this. Found in the following thread:
+   https://stackoverflow.com/questions/46100302/bootstrap-4-navbar-toggler-not-showing */
+
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* _______________________________________________________________________________________________ */
+
+.jumbotron {
+    background: url(../img/jumbotron/4L7C5828.png) center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 420px;
+    position: relative;
+}
+
+.jumbotron > .jt-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.jumbotron > .jt-content {
+    position: relative;
+    z-index: 2;
+}
+
+.jt-display {
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 1.2rem;
+}
+
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.card-link {
+    color: #fff;
+}
+
+.card-link:hover {
+    color: #ccc;
+}
+
+.card-img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.fas, .far {
+    font-size: 3rem;
+    padding-right: 1.1rem;
+    color: #4c8930;
+}
+
+.cnumtext {
+    font-size: 1.2rem;
+    padding-left: 4.5rem;
+}
+
+.news-container {
+    background: #eceeef;
+}
+
+.news {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+li a {
+    color: #fff;
+}
+
+li a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #4c8930;
+  color: #fff;
+}
+
+.fab:hover {
+    text-decoration: none;
+    color: #262626;
+}
+
+.btn {
+    background: #4c8930;
+    color: #fff;
+}
